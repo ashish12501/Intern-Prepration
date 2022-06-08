@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    vector<vector<int>> matrix{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+    // vector<vector<int>> matrix{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
     // vector<vector<int>> matrix {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
-    // vector<vector<int>> matrix {{1,1,1,1},{1,0,1,1},{1,1,0,1},{0,0,0,1}};
+    vector<vector<int>> matrix {{1,1,1,1},{1,0,1,1},{1,1,0,1},{0,0,0,1}};
     // vector<vector<int>> matrix{{1,0,3}};
 
     int col0=1,rows=matrix.size(),cols=matrix[0].size();
